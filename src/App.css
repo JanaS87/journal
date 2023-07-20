@@ -1,7 +1,78 @@
 @import "./index.css";
 
+Header {
+  text-align: center;
+  align-items: center;
+  background-color: var(--color-water-10);
+  padding: 1rem 2rem;
+  font-size: 2em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+Main {
+  display: flex;
+  flex-direction: column;
+}
+
+Form {
+  display: flex;
+  flex-direction: column;
+}
+
+.btnStyle {
+    background-color: var(--color-nemo);
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0 1px 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-size: 17px;
+    line-height: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 11px 15px 12px;
+    text-align: center;
+    transition: box-shadow .05s ease-in-out,opacity .05s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+  }
+  
+  .btnStyle:hover {
+    box-shadow: rgba(255, 255, 255, 0.3) 0 0 2px inset, rgba(0, 0, 0, 0.4) 0 1px 2px;
+    text-decoration: none;
+    transition-duration: .15s, .15s;
+  }
+  
+  .btnStyle:active {
+    box-shadow: rgba(0, 0, 0, 0.15) 0 2px 4px inset, rgba(0, 0, 0, 0.4) 0 1px 1px;
+  }
+  
+  .btnStyle:disabled {
+    cursor: not-allowed;
+    opacity: .6;
+  }
+  
+  .btnStyle:disabled:active {
+    pointer-events: none;
+  }
+  
+  .btnStyle:disabled:hover {
+    box-shadow: none;
+  }
+
+
+Form h1{
+  text-align: center;
+  text-transform: uppercase;
+}
+
 Footer {
   text-align: center;
   align-items: center;
   bottom: 0;
+  background-color: var(--color-granite);
+  color: var(--color-foam);
 }

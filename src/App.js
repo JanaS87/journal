@@ -1,4 +1,6 @@
 import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
+import Form from "./components/Form/Form";
 import Footer from "./components/Footer/Footer";
 import "./App.css";
 
@@ -6,9 +8,10 @@ function App() {
   return (
     <>
       <Header></Header>
-      <main>
-        <h1>New Entry</h1>
-      </main>
+      <Main>
+        <Form></Form>
+      </Main>
+      
       <Footer></Footer>
     </>
   );
