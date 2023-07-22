@@ -1,1 +1,16 @@
-import {useState} from "react";
+.favorite-btn {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    background: none;
+}
+
+.favorite-button:hover {
+    background-color: var(--color-water);
+  }
+  
+  .favorite-button:active {
+    background-color: var(--color-water-10);
+  }
+  
