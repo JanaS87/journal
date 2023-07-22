@@ -1,0 +1,11 @@
+.entries-section {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.entries-section__entries {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}

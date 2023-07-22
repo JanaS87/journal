@@ -1,0 +1,39 @@
+.entry {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.entry__date {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.entry__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.motto-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.motto-container h2 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.notes {
+    margin: 0;
+    font-size: 16px;
+}
+
+  
