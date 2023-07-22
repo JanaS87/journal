@@ -1,3 +1,7 @@
+import "./Footer.css";
+import React from "react";
+
 export default function Footer() {
-  return <footer className="footer">Journal App - 2028</footer>;
+  const date = new Date().toLocaleDateString("de");
+  return <footer className="footer">Journal App - {date}</footer>;
 }
