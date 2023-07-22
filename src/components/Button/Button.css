@@ -1,0 +1,20 @@
+.btnStyle {
+    background-color: var(--color-nemo);
+    border: none;
+    color: var(--color-foam);
+    cursor: pointer;
+    font-size: 17px;
+    line-height: 100%;
+    padding: 12px 40px;
+    text-align: center;
+    width: fit-content;  
+    appearance: none;
+  }
+
+  .btnStyle:hover {
+    background-color: var(--color-nemo-dark);
+  }
+
+  .btnStyle:active {
+    background-color: var(--color-nemo-mid);
+  }
