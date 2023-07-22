@@ -9,6 +9,7 @@
     text-align: center;
     width: fit-content;  
     appearance: none;
+    border-radius: 5px;
   }
 
   .btnStyle:hover {
